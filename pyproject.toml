@@ -2,7 +2,7 @@
 name = "conv-summarizer"
 version = "0.1.0"
 description = "AI Conversation Summarizer API"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "fastapi>=0.115",
     "uvicorn[standard]>=0.32",
@@ -33,7 +33,7 @@ include = ["app*"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py312"
+target-version = "py313"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "W", "B"]

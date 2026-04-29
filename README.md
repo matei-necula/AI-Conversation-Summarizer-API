@@ -4,7 +4,7 @@ REST API that ingests customer-service conversation transcripts, runs OpenAI
 analysis (summary, sentiment, key topics), and persists the results in
 PostgreSQL for retrieval and search.
 
-Built with **Python 3.12 · FastAPI · SQLAlchemy · PostgreSQL · OpenAI · Docker**.
+Built with **Python 3.13 · FastAPI · SQLAlchemy · PostgreSQL · OpenAI · Docker**.
 
 ---
 
